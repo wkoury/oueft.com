@@ -1,6 +1,6 @@
 {
-  "name": "next-playground",
-  "version": "0.1.0",
+  "name": "oueft.com",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -10,6 +10,7 @@
   "dependencies": {
     "next": "9.5.3",
     "react": "16.13.1",
-    "react-dom": "16.13.1"
+    "react-dom": "16.13.1",
+    "react-tiny-popover": "^5.1.0"
   }
 }

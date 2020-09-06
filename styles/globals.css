@@ -4,13 +4,22 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background: #cc0000;
+  color: white;
+  text-align: center;
+  font-size: 1.2rem;
+  text-shadow: 1px 1px black;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+a, a:visited {
+  color: lightgray;
 }
 
-* {
-  box-sizing: border-box;
+u {
+  color: lightgray;
+}
+
+.popup {
+  background: lightgray;
+  
 }
