@@ -18,18 +18,19 @@ export default function Home() {
         <span>an <Popover 
           isOpen={isPopoverOpen} 
           position={"bottom"} 
-          padding={10} 
+          padding={10}
+          transitionDuration={0.} 
           content={({ position, targetRect, popoverRect }) => (
             <ArrowContainer
               position={position}
               targetRect={targetRect}
               popoverRect={popoverRect}
               arrowColor={'lightgray'}
-              arrowSize={10}
+              arrowSize={5}
               arrowStyle={{ opacity: 1 }}
             >
               <div className="popup">
-                Hi! I'm popover content..
+                The field is currently capped at 12 teams, but may expand. Top finishers will qualify for NAQT's Spring 2021 national championships!
               </div>
             </ArrowContainer>
               )}
@@ -37,7 +38,7 @@ export default function Home() {
             <u onMouseEnter={() => setIsPopoverOpen(true)} onMouseLeave={() => setIsPopoverOpen(false)}>online NAQT tournament</u>
           </Popover>
         </span>
-        <p>on October 24!</p>
+        <p>on <a href="https://www.naqt.com/registration/field.jsp?tournament_id=11791">October 24</a>!</p>
       </main>        
     </div>
   );

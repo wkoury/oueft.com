@@ -21,5 +21,10 @@ u {
 
 .popup {
   background: lightgray;
-  
+  padding: 15px;
+  border-radius: 5px;
+  width: 240px;
+  text-shadow: none;
+  color: black;
+  font-size: 0.9rem;
 }
