@@ -7,8 +7,12 @@ body {
   background: #cc0000;
   color: white;
   text-align: center;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   text-shadow: 1px 1px black;
+}
+
+main {
+  max-width: 600px;
 }
 
 a, a:visited {
