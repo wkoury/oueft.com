@@ -13,7 +13,7 @@ export default function Home() {
         <title>Oklahama Early Fall Tournament</title>
       </Head>
       <main>
-        <p>The <a href="https://ouquizbowl.org">Oklahoma Academic Team</a></p>
+        <p>The <a href="https://ouquizbowl.org" rel="noopener noreferrer" target="_blank">Oklahoma Academic Team</a></p>
         <p>is hosting</p>
         <span>an <Popover 
           isOpen={isPopoverOpen} 
@@ -35,10 +35,10 @@ export default function Home() {
             </ArrowContainer>
               )}
             >
-            <u onMouseEnter={() => setIsPopoverOpen(true)} onMouseLeave={() => setIsPopoverOpen(false)}>online NAQT tournament</u>
+            <a onMouseEnter={() => setIsPopoverOpen(true)} onMouseLeave={() => setIsPopoverOpen(false)} href="https://www.notion.so/Oklahoma-Early-Fall-Tournament-2020-ab4ab8a565f44e3fab9a9595812f6de8" rel="noopener noreferrer" target="_blank">online NAQT tournament</a>
           </Popover>
         </span>
-        <p>on <a href="https://www.naqt.com/registration/field.jsp?tournament_id=11791">October 24</a>!</p>
+        <p>on <a href="https://www.naqt.com/registration/field.jsp?tournament_id=11791" rel="noopener noreferrer" target="_blank">October 24</a>!</p>
       </main>        
     </div>
   );
