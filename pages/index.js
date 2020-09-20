@@ -35,7 +35,7 @@ export default function Home() {
             </ArrowContainer>
               )}
             >
-            <a onMouseEnter={() => setIsPopoverOpen(true)} onMouseLeave={() => setIsPopoverOpen(false)} href="https://www.notion.so/Oklahoma-Early-Fall-Tournament-2020-ab4ab8a565f44e3fab9a9595812f6de8" rel="noopener noreferrer" target="_blank">online NAQT tournament</a>
+            <a onMouseEnter={() => setIsPopoverOpen(true)} onMouseLeave={() => setIsPopoverOpen(false)} href="https://www.notion.so/Oklahoma-Early-Fall-Tournament-2020-d3e32cef3be74fa99dd45914002474a3" rel="noopener noreferrer" target="_blank">online NAQT tournament</a>
           </Popover>
         </span>
         <p>on <a href="https://www.naqt.com/registration/field.jsp?tournament_id=11791" rel="noopener noreferrer" target="_blank">October 24</a>!</p>
