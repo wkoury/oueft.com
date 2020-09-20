@@ -15,11 +15,11 @@ export default function Home() {
       <main>
         <p>The <a href="https://ouquizbowl.org" rel="noopener noreferrer" target="_blank">Oklahoma Academic Team</a></p>
         <p>is hosting</p>
-        <span>an <Popover 
-          isOpen={isPopoverOpen} 
-          position={"bottom"} 
+        <span>an <Popover
+          isOpen={isPopoverOpen}
+          position={"bottom"}
           padding={10}
-          transitionDuration={0.} 
+          transitionDuration={0.}
           content={({ position, targetRect, popoverRect }) => (
             <ArrowContainer
               position={position}
@@ -30,7 +30,7 @@ export default function Home() {
               arrowStyle={{ opacity: 1 }}
             >
               <div className="popup">
-                The field is currently capped at 12 teams, but may expand. Top finishers will qualify for NAQT's Spring 2021 national championships!
+                The field is currently capped at 12 teams + a waitlist, but may expand. Top finishers will qualify for NAQT's Spring 2021 national championships!
               </div>
             </ArrowContainer>
               )}
@@ -39,7 +39,7 @@ export default function Home() {
           </Popover>
         </span>
         <p>on <a href="https://www.naqt.com/registration/field.jsp?tournament_id=11791" rel="noopener noreferrer" target="_blank">October 24</a>!</p>
-      </main>        
+      </main>
     </div>
   );
 }
