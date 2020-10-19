@@ -4,11 +4,11 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  background: #333;
-  color: crimson;
+  background: #e2a619;
+  color: red;
   text-align: center;
   font-size: 1.2rem;
-  text-shadow: 1px 1px black;
+  text-shadow: 1px 1px #3e3e3e;
 }
 
 main {
@@ -16,5 +16,11 @@ main {
 }
 
 a, a:visited {
-  color: #ad5b01;
+  color: red;
+  transition: 0.3s;
+}
+
+a:hover {
+  color: #3e3e3e;
+  transition: 0.3s;
 }
