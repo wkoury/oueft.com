@@ -7,6 +7,10 @@
   align-items: center;
 }
 
+.announcement {
+  font-size: 1rem;
+}
+
 .main {
   padding: 5rem 0;
   flex: 1;
