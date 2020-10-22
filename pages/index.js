@@ -18,6 +18,7 @@ export default function Home() {
         <br></br>
         <h3>Important Links:</h3>
         <p><a href="https://www.notion.so/c30c250946a04b469ef752d5b4ceb796?v=9d216d9730344d80bfc5d197bffb25c7" rel="noopener noreferrer" target="_blank">Tournament HQ</a></p>
+        <p><a href="https://www.notion.so/Preliminary-Pools-Schedule-ac0ace758e4f4cc5bae7842a7d45da83" rel="noopener noreferrer" target="_blank">Preliminary Pools & Schedule</a></p>
       </main>
     </div>
   );
