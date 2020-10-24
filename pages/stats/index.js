@@ -9,19 +9,13 @@ export default function Index () {
                 <title>Results</title>
             </Head>
 
-            <div classname={styles.statsContainer}>
+            <div className={styles.statsContainer}>
                 <iframe
                     className={styles.stats}
                     src="stats/OUEFT2020qzx_standings.html"
                     name="Stats"
                 ></iframe>
             </div>
-
-            {/* <main>
-                <h2>Most Recent Results</h2>
-                <h6>As of Round 0</h6>
-            </main> */}
-            
         </div>
     );
 }
