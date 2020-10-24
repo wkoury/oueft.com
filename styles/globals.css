@@ -12,7 +12,7 @@ body {
 }
 
 main {
-  max-width: 600px;
+  max-width: 900px;
 }
 
 a, a:visited {
@@ -23,4 +23,11 @@ a, a:visited {
 a:hover {
   color: #3e3e3e;
   transition: 0.3s;
+}
+
+@media only screen and (max-width: 900px){
+  main{
+    max-width: 300px;
+    align-items: center;
+  }
 }
