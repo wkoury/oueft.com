@@ -12,7 +12,7 @@ export default function Index () {
             <div className={styles.statsContainer}>
                 <iframe
                     className={styles.stats}
-                    src="stats/OUEFT2020qzx_standings.html"
+                    src="stats/2020-oklahoma-early-fall_standings.html"
                     name="Stats"
                 ></iframe>
             </div>
