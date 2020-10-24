@@ -23,6 +23,9 @@ export default function Home() {
         <Link href="/stats"><a rel="noopener noreferrer" target="_blank">Most Recent Stats</a></Link>
         <p><a href="https://www.notion.so/Resources-for-Moderators-90926db5ba18456590e79c8715339c4e" rel="noopener noreferrer" target="_blank">Resources for Moderators</a></p>
       </main>
+      <div className={styles.footer}>
+        <span>©2020 <a href="https://wkoury.com" rel="noopener noreferrer" target="_blank">Will Koury</a></span>
+      </div>
     </div>
   );
 }

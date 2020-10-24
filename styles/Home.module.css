@@ -34,3 +34,9 @@
   height: 100%;
   border: none;
 }
+
+.footer {
+  font-size: 0.5rem;
+  color: black;
+  text-shadow: none;
+}
