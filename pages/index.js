@@ -19,6 +19,7 @@ export default function Home() {
         <br></br>
         <h3>Important Links:</h3>
         <p><a href="https://www.notion.so/c30c250946a04b469ef752d5b4ceb796?v=9d216d9730344d80bfc5d197bffb25c7" rel="noopener noreferrer" target="_blank">Tournament HQ</a></p>
+        <p><a href="https://www.notion.so/Playoffs-Pools-Schedule-958810c40e5441b19825e8128d572ad8" rel="noopener noreferrer" target="_blank">Playoff Pools & Schedule</a></p>
         <p><a href="https://www.notion.so/Preliminary-Pools-Schedule-ac0ace758e4f4cc5bae7842a7d45da83" rel="noopener noreferrer" target="_blank">Preliminary Pools & Schedule</a></p>
         <Link href="/stats"><a rel="noopener noreferrer" target="_blank">Most Recent Stats</a></Link>
         <p><a href="https://www.notion.so/Resources-for-Moderators-90926db5ba18456590e79c8715339c4e" rel="noopener noreferrer" target="_blank">Resources for Moderators</a></p>
