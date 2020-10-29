@@ -1,7 +1,7 @@
 import Head from "next/head";
 import React from "react";
 import styles from "../styles/Home.module.css";
-import Link from "next/link";
+import NAQT_LINK from "../services/NAQT";
 
 export default function Home() {
   return (
@@ -13,7 +13,7 @@ export default function Home() {
         <div className={styles.announcement}>
           <p>The OU Academic Team</p>
           <p>hosted</p>
-          <span>an <a href="https://www.naqt.com/stats/tournament/standings.jsp?tournament_id=11791" rel="noopener noreferrer" target="_blank">online NAQT tournament</a></span>
+          <span>an <a href={NAQT_LINK} rel="noopener noreferrer" target="_blank">online NAQT tournament</a></span>
           <p>on October 24!</p>
         </div>
       </main>
