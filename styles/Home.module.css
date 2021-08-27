@@ -16,6 +16,10 @@
   align-items: center;
 }
 
+.faqQuestion {
+  font-weight: 700;
+}
+
 .statsContainer {
   /* position: relative; */
   overflow: hidden;
