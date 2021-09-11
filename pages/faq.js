@@ -22,7 +22,7 @@ export default function Faq() {
 
       <Question
         question='What will the field size be?'
-        answer='At the moment, the field is capped at 16 teams. If we can get the resources required to accomodate more teams, we intend to do so, in which case those teams on the waitlist will be let in.'
+        answer='At the moment, the field is capped at 18 teams. Once we have the resources required to do so, we intend to raise the field size to 20 teams.'
       />
       <Footer />
     </div>
