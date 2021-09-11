@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import Question from '../components/Question';
 import Footer from '../components/Footer';
 import styles from '../styles/Home.module.css';
@@ -5,6 +6,9 @@ import styles from '../styles/Home.module.css';
 export default function Faq() {
   return (
     <div className={styles.container}>
+      <Head>
+        <title>Frequently Asked Questions</title>
+      </Head>
       <Question
         question='Is this tournament going to be in-person?'
         answer='Yes.'
