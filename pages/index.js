@@ -19,11 +19,13 @@ export default function Home() {
         </div>
         <div>
           <h3>Important Links</h3>
-          <ul>
-            <li><a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vRL1sF96_RYY942xi6g_4ihFDN5WN4jGVN_pKUAmE5B5kseUHqpbUi-w7THggkayXZWWVne5LJJBeuz/pubhtml" rel="noopener noreferrer" target="blank">Schedule (Matchups and Rooms)</a></li>
-            <li><a href="https://docs.google.com/document/d/e/2PACX-1vRyVL1_dDLmuj-YLolJT25ej0XErB7wDrTHeseKkxgDKIddrnmUH5p_OcU4xrucoiIUXJ0tH2lWqWla/pub" rel="noopener noreferrer" target="blank">Schedule (Tentative Round Times)</a></li>
-            <li><a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vTdScS312ifC-f4pKTyc4v2qtEXdrUTuxPh635TfccrqQjkn19PQfcCKAQcAQ0KVlRGvP22UfcQeTGC/pubhtml" rel="noopener noreferrer" target="blank">Volunteer Room Matchups</a></li>
-          </ul>
+            <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vRL1sF96_RYY942xi6g_4ihFDN5WN4jGVN_pKUAmE5B5kseUHqpbUi-w7THggkayXZWWVne5LJJBeuz/pubhtml" rel="noopener noreferrer" target="blank">Schedule (Matchups and Rooms)</a>
+            <br />
+            <a href="https://docs.google.com/document/d/e/2PACX-1vRyVL1_dDLmuj-YLolJT25ej0XErB7wDrTHeseKkxgDKIddrnmUH5p_OcU4xrucoiIUXJ0tH2lWqWla/pub" rel="noopener noreferrer" target="blank">Schedule (Tentative Round Times)</a>
+            <br />
+            <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vTdScS312ifC-f4pKTyc4v2qtEXdrUTuxPh635TfccrqQjkn19PQfcCKAQcAQ0KVlRGvP22UfcQeTGC/pubhtml" rel="noopener noreferrer" target="blank">Volunteer Room Matchups</a>
+            <br />
+            Live Stats
         </div>
       </main>
       <Footer />
