@@ -29,7 +29,7 @@ export default function Home() {
             <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vTdScS312ifC-f4pKTyc4v2qtEXdrUTuxPh635TfccrqQjkn19PQfcCKAQcAQ0KVlRGvP22UfcQeTGC/pubhtml" rel="noopener noreferrer" target="blank">Volunteer Room Matchups</a>
             <br />
             <br />
-            <Link href="/stats">Live Stats (Round 2)</Link>
+            <Link href="/stats">Live Stats (Round 3)</Link>
           </div>
         </div>
       </main>
