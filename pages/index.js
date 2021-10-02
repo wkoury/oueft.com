@@ -25,7 +25,7 @@ export default function Home() {
             <br />
             <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vTdScS312ifC-f4pKTyc4v2qtEXdrUTuxPh635TfccrqQjkn19PQfcCKAQcAQ0KVlRGvP22UfcQeTGC/pubhtml" rel="noopener noreferrer" target="blank">Volunteer Room Matchups</a>
             <br />
-            Live Stats
+            <Link href="/stats">Live Stats</Link>
         </div>
       </main>
       <Footer />
